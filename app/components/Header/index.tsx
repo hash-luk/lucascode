@@ -48,8 +48,8 @@ export default function Header() {
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="group relative"
           >
-            <div className="bg-linear-to-r from-blue-500 to-blue-950 px-4 py-2 border-4 border-white shadow-[6px_6px_0px_0px_rgba(255,255,255,1)] group-hover:shadow-[3px_3px_0px_0px_rgba(255,255,255,1)] group-hover:translate-x-0.5 group-hover:translate-y-0.5 group-hover:cursor-pointer transition-all">
-              <Image src={Logo} alt="logo" />
+            <div className="text-3xl font-black bg-linear-to-r from-blue-500 to-purple-500 px-4 py-2 border-4 border-white shadow-[6px_6px_0px_0px_rgba(255,255,255,1)] group-hover:shadow-[3px_3px_0px_0px_rgba(255,255,255,1)] group-hover:translate-x-0.5 group-hover:translate-y-0.5 group-hover:cursor-pointer transition-all">
+              LC
             </div>
           </button>
 
@@ -66,7 +66,7 @@ export default function Header() {
 
             <button
               onClick={() => scrollToSection("contact")}
-              className="ml-2 px-6 py-2 bg-linear-to-r from-blue-500 to-purple-500 text-white font-black border-4 border-white shadow-[6px_6px_0px_0px_rgba(255,255,255,1)] hover:shadow-[3px_3px_0px_0px_rgba(255,255,255,1)] hover:translate-x-0.5 hover:translate-y-0.5 transition-all hover:cursor-pointer"
+              className="ml-2 px-6 py-2 bg-linear-to-r from-purple-500 to-blue-500  text-white font-black border-4 border-white shadow-[6px_6px_0px_0px_rgba(255,255,255,1)] hover:shadow-[3px_3px_0px_0px_rgba(255,255,255,1)] hover:translate-x-0.5 hover:translate-y-0.5 transition-all hover:cursor-pointer"
             >
               HIRE ME
             </button>
